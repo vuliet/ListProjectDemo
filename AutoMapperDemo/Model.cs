@@ -9,11 +9,6 @@ namespace AutoMapperDemo
         public string LastName { get; set; }
         public Address Address { get; set; }
         public string Role { get; set; }
-
-        public string GetFullName()
-        {
-            return $"{LastName} {FirstName}";
-        }
     }
 
     public class EmployeeDto

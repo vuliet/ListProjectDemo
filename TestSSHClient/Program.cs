@@ -18,6 +18,6 @@ using (SshClient sshClient = new(host, username, password))
     }
     catch (Exception e)
     {
-        Console.WriteLine("An exception has been caught " + e.ToString());
+        Console.WriteLine("An exception has been caught " + e.Message.ToString());
     }
 }

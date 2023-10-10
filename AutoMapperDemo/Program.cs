@@ -1,4 +1,5 @@
-﻿// Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection
+﻿// Refer : https://code-maze.com/automapper-net-core/
+// Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection
 
 using AutoMapper;
 using AutoMapperDemo;
@@ -8,7 +9,6 @@ var config = new MapperConfiguration(cfg =>
 {
     cfg.CreateMap<Employee, EmployeeDto>()
     .ForMember(dest => dest.FullName, opt => opt.Condition(src => src.Role == "Manager"))
-    //.ForMember(dest => dest.FullName, opt => opt.MapFrom(src => src.GetFullName()))
     .ForMember(dest => dest.FullName, opt => opt.MapFrom<FullNameResolver>()).ReverseMap();
 });
 
