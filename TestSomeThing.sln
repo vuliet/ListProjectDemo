@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigitalRoot", "DigitalRoot\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindNfhtLargest", "FindNftLargest\FindNfhtLargest.csproj", "{B33505CC-4BA7-48E5-B66B-6705FD147767}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperDemo", "AutoMapperDemo\AutoMapperDemo.csproj", "{CC697A3A-F12F-4C24-A1AF-21F5769AC386}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMapperDemo", "AutoMapperDemo\AutoMapperDemo.csproj", "{CC697A3A-F12F-4C24-A1AF-21F5769AC386}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thread", "Thread\Thread.csproj", "{72B56D1A-86C6-4F2A-8575-CCB683CB9963}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{CC697A3A-F12F-4C24-A1AF-21F5769AC386}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC697A3A-F12F-4C24-A1AF-21F5769AC386}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC697A3A-F12F-4C24-A1AF-21F5769AC386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B56D1A-86C6-4F2A-8575-CCB683CB9963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B56D1A-86C6-4F2A-8575-CCB683CB9963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B56D1A-86C6-4F2A-8575-CCB683CB9963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B56D1A-86C6-4F2A-8575-CCB683CB9963}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
