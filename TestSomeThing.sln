@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostAndPreIncrement", "Post
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goto", "Goto\Goto.csproj", "{32E6B1C4-6377-4F39-A2D6-8F3909156F51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "Benchmark\Benchmarks.csproj", "{3AFFB5A7-5717-45C6-9CBB-F324387882FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{32E6B1C4-6377-4F39-A2D6-8F3909156F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32E6B1C4-6377-4F39-A2D6-8F3909156F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32E6B1C4-6377-4F39-A2D6-8F3909156F51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AFFB5A7-5717-45C6-9CBB-F324387882FC}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{3AFFB5A7-5717-45C6-9CBB-F324387882FC}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{3AFFB5A7-5717-45C6-9CBB-F324387882FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AFFB5A7-5717-45C6-9CBB-F324387882FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
