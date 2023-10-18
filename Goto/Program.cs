@@ -1,7 +1,6 @@
 ﻿var retryCount = 0;
 
 Start:
-
 try
 {
 
@@ -16,3 +15,20 @@ catch
     }
     throw;
 }
+
+var state = "Pending";
+
+switch (state)
+{
+    case "Pending":
+        Console.WriteLine("Case pending");
+        Console.WriteLine("goto case Processing");
+        goto case "Processing";
+    case "Processing":
+        Console.WriteLine("Case Processing");
+        break;
+    default:
+        break;
+}
+
+Console.ReadLine();
