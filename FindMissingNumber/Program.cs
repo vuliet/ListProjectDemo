@@ -1,4 +1,4 @@
-﻿var array = new int[] { 1, 2, 3, 4, 6, 10 };
+﻿var array = new int[] { 1, 2, 3, 4, 6, 10, 15 };
 
 var arrayAfterSort = array.Order().ToList();
 
