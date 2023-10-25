@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindMissingNumber", "FindMi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegate", "Delegate\Delegate.csproj", "{0BB4CF66-1D17-4E32-8F1E-5CF13A4FF3BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception", "Exception\Exception.csproj", "{FE8B9F47-5AC7-43AC-9EF8-D6E75323A248}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{0BB4CF66-1D17-4E32-8F1E-5CF13A4FF3BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BB4CF66-1D17-4E32-8F1E-5CF13A4FF3BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BB4CF66-1D17-4E32-8F1E-5CF13A4FF3BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE8B9F47-5AC7-43AC-9EF8-D6E75323A248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE8B9F47-5AC7-43AC-9EF8-D6E75323A248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE8B9F47-5AC7-43AC-9EF8-D6E75323A248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE8B9F47-5AC7-43AC-9EF8-D6E75323A248}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
