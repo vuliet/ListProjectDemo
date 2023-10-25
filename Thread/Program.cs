@@ -5,7 +5,7 @@ thread.Start();
 for (int i = 0; i < 5; i++)
 {
     Console.WriteLine($"Main thread: {i}");
-    Thread.Sleep(500); // Giả lập công việc mất thời gian
+    Thread.Sleep(500);
 }
 
 // Chờ thread bất đồng bộ hoàn thành
@@ -18,7 +18,7 @@ static void DoAsyncWork()
     for (int i = 0; i < 5; i++)
     {
         Console.WriteLine($"Async thread: {i}");
-        Thread.Sleep(1000); // Giả lập công việc mất thời gian
+        Thread.Sleep(1000);
     }
 }
 
