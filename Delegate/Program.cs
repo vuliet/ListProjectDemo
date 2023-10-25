@@ -13,7 +13,7 @@ public class Program
         Console.ReadLine();
     }
 
-    static void GreetPerson(string message, string name, PrintMessage printDelegate)
+    public static void GreetPerson(string message, string name, PrintMessage printDelegate)
     {
         printDelegate(message, name);
     }
