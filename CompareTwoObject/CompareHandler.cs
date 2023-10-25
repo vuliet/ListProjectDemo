@@ -16,6 +16,9 @@ namespace CompareTwoObject
                 object value1 = property.GetValue(obj1);
                 object value2 = property.GetValue(obj2);
 
+                if (property.GetValue(value2) is null)
+                    continue;
+
                 if (!Equals(value1, value2))
                 {
                     differences.Add(property.Name);
