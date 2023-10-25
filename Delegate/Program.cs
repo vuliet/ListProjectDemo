@@ -1,20 +1,41 @@
-﻿public delegate void PrintMessage(string message, string name);
+﻿
+public delegate int MathOperation(int a, int b);
 
 public class Program
 {
-    static void Main()
+    public static int Add(int a, int b)
     {
-        PrintMessage printHello = (message, name) => Console.WriteLine($"{message}, {name}");
-        PrintMessage printGoodbye = (message, name) => Console.WriteLine($"{message}, {name}");
-
-        GreetPerson("Hello", "John", printHello);
-        GreetPerson("Goodbye", "Alice", printGoodbye);
-
-        Console.ReadLine();
+        Console.WriteLine("Start Add Method");
+        return a + b;
     }
 
-    public static void GreetPerson(string message, string name, PrintMessage printDelegate)
+    public static int Subtract(int a, int b)
     {
-        printDelegate(message, name);
+        Console.WriteLine("Start Subtract Method");
+        return a - b;
+    }
+
+    public static void Main()
+    {
+        MathOperation operation = Add;
+        operation += Subtract;
+
+        var invocationList = operation.GetInvocationList();
+
+        var addOperation = invocationList
+            .OfType<MathOperation>()
+            .FirstOrDefault(x => x.Method.Name == "Add");
+
+        if (addOperation is null)
+        {
+            Console.WriteLine("Not found Add method");
+            Console.ReadLine();
+            return;
+        }
+
+        int result = addOperation(5, 3);
+
+        Console.WriteLine("Result: " + result);
+        Console.ReadLine();
     }
 }
