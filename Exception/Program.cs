@@ -2,7 +2,7 @@
 
 static bool TestException()
 {
-    throw new AppException("Exception1");
+    throw new AppException("AppException1");
 }
 
 static bool MethodCall()
