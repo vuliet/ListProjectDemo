@@ -31,7 +31,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SymmetryArray", "SymmetryAr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindMissingNumber", "FindMissingNumber\FindMissingNumber.csproj", "{43111E50-09F4-4110-B2F0-47A02CF0513C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate", "DelegateActionFunction\Delegate.csproj", "{82F51899-0CCC-4366-BBBC-C0C3DAA95366}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegate", "Delegate\Delegate.csproj", "{0BB4CF66-1D17-4E32-8F1E-5CF13A4FF3BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,10 +95,10 @@ Global
 		{43111E50-09F4-4110-B2F0-47A02CF0513C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43111E50-09F4-4110-B2F0-47A02CF0513C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43111E50-09F4-4110-B2F0-47A02CF0513C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{82F51899-0CCC-4366-BBBC-C0C3DAA95366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{82F51899-0CCC-4366-BBBC-C0C3DAA95366}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{82F51899-0CCC-4366-BBBC-C0C3DAA95366}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{82F51899-0CCC-4366-BBBC-C0C3DAA95366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BB4CF66-1D17-4E32-8F1E-5CF13A4FF3BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BB4CF66-1D17-4E32-8F1E-5CF13A4FF3BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BB4CF66-1D17-4E32-8F1E-5CF13A4FF3BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BB4CF66-1D17-4E32-8F1E-5CF13A4FF3BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
