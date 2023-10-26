@@ -33,9 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindMissingNumber", "FindMi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegate", "Delegate\Delegate.csproj", "{0BB4CF66-1D17-4E32-8F1E-5CF13A4FF3BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception", "Exception\Exception.csproj", "{FE8B9F47-5AC7-43AC-9EF8-D6E75323A248}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exception", "Exception\Exception.csproj", "{FE8B9F47-5AC7-43AC-9EF8-D6E75323A248}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompareTwoObject", "CompareTwoObject\CompareTwoObject.csproj", "{12475308-1A69-40F1-BCA7-6E6025A3CA28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompareTwoObject", "CompareTwoObject\CompareTwoObject.csproj", "{12475308-1A69-40F1-BCA7-6E6025A3CA28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyObject", "CopyObject\CopyObject.csproj", "{11E94FAB-526B-482F-A676-8628DD26BBCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{12475308-1A69-40F1-BCA7-6E6025A3CA28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12475308-1A69-40F1-BCA7-6E6025A3CA28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12475308-1A69-40F1-BCA7-6E6025A3CA28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E94FAB-526B-482F-A676-8628DD26BBCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E94FAB-526B-482F-A676-8628DD26BBCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E94FAB-526B-482F-A676-8628DD26BBCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E94FAB-526B-482F-A676-8628DD26BBCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
