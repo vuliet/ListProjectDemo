@@ -1,8 +1,7 @@
 ﻿using Newtonsoft.Json;
 using TestSomeThing;
 
-var postFunc = DummyData.Post;
-var post = postFunc.Invoke();
+var post = DummyData.Post();
 var comments = DummyData.Comments();
 var replies = DummyData.Replies();
 var request = new ReplyRequest
