@@ -37,9 +37,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exception", "Exception\Exce
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompareTwoObject", "CompareTwoObject\CompareTwoObject.csproj", "{12475308-1A69-40F1-BCA7-6E6025A3CA28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyObject", "CopyObject\CopyObject.csproj", "{11E94FAB-526B-482F-A676-8628DD26BBCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CopyObject", "CopyObject\CopyObject.csproj", "{11E94FAB-526B-482F-A676-8628DD26BBCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloneObject", "CloneObject\CloneObject.csproj", "{D0B560BE-DCCB-490D-91A8-73AC772A05B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloneObject", "CloneObject\CloneObject.csproj", "{D0B560BE-DCCB-490D-91A8-73AC772A05B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexTutorial", "RegexTutorial\RegexTutorial.csproj", "{757E796E-0204-4EB2-9F23-01DC23939F09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{D0B560BE-DCCB-490D-91A8-73AC772A05B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0B560BE-DCCB-490D-91A8-73AC772A05B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0B560BE-DCCB-490D-91A8-73AC772A05B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{757E796E-0204-4EB2-9F23-01DC23939F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{757E796E-0204-4EB2-9F23-01DC23939F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{757E796E-0204-4EB2-9F23-01DC23939F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{757E796E-0204-4EB2-9F23-01DC23939F09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
