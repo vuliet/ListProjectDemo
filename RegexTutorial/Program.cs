@@ -43,3 +43,7 @@ if (match.Success)
 }
 
 Console.ReadLine();
+
+// \s* phù hợp với bất kỳ khoảng trắng sau chuỗi "Xppmm:".
+// ([^\r\n] +) phù hợp với bất kỳ ký tự nào (trừ các ký tự xuống dòng) và lấy giá trị này.
+// Khi bạn chạy chương trình này, nó sẽ in ra giá trị tương ứng với "Xppmm" từ chuỗi content.
