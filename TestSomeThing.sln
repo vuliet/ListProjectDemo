@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CopyObject", "CopyObject\Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloneObject", "CloneObject\CloneObject.csproj", "{D0B560BE-DCCB-490D-91A8-73AC772A05B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexTutorial", "RegexTutorial\RegexTutorial.csproj", "{757E796E-0204-4EB2-9F23-01DC23939F09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegexTutorial", "RegexTutorial\RegexTutorial.csproj", "{757E796E-0204-4EB2-9F23-01DC23939F09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentDictionary", "ConcurrentDictionary\ConcurrentDictionary.csproj", "{C53CA776-B293-45E8-B107-23860A8D27EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{757E796E-0204-4EB2-9F23-01DC23939F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{757E796E-0204-4EB2-9F23-01DC23939F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{757E796E-0204-4EB2-9F23-01DC23939F09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C53CA776-B293-45E8-B107-23860A8D27EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C53CA776-B293-45E8-B107-23860A8D27EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C53CA776-B293-45E8-B107-23860A8D27EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C53CA776-B293-45E8-B107-23860A8D27EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
