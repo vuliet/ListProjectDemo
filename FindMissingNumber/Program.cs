@@ -9,14 +9,15 @@ for (var i = 0; i < arrayAfterSort.Count; i++)
     if (i == arrayAfterSort.Count - 1)
         break;
 
+    var currentNumber = array[i];
     var nextNumber = arrayAfterSort[i + 1];
 
     var rangeBetweenTwoIndex = nextNumber - arrayAfterSort[i];
     if (rangeBetweenTwoIndex == 1)
         continue;
 
-    for (var j = 1; j <= rangeBetweenTwoIndex - 1; j++)
-        missingNumbers.Add(arrayAfterSort[i] + j);
+    var missingRange = Enumerable.Range(currentNumber + 1, rangeBetweenTwoIndex - 1);
+    missingNumbers.AddRange(missingRange);
 }
 
 Console.WriteLine($"Mang hien tai: {string.Join(",", array)}");
